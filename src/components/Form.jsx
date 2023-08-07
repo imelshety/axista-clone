@@ -8,7 +8,7 @@ const Form = () => {
                 <input type="address" name="userAddress" placeholder="Enter Address" className="w-[95%] text-sm text-slate-300 p-2 mb-8 border-b-[2px] border-[#2a31a3]" />
                 <input type="phone" name="userPhone" placeholder="Mobile No" className="w-[95%] text-sm text-slate-300 p-2 mb-8 border-b-[2px] border-[#2a31a3]" />
                 <textarea name="massege" cols="30" rows="10" required placeholder="Write Your message" className="w-[95%] h-[90px] text-sm text-slate-300 p-2 mb-8 border-b-[2px] border-[#2a31a3] lg:col-span-2"></textarea>
-                <button className="w-[95%] text-center text-white text-xl font-semibold bg-[#ffc400] p-2 mx-auto rounded hover:bg-[#2a31a3]">Send message</button>
+                <button className="w-[95%] text-white text-xl text-center font-semibold bg-[#ffc400] p-2 rounded hover:bg-[#2a31a3] lg:w-[95%] lg:col-span-2">Send message</button>
             </form>
         </div>
     )
